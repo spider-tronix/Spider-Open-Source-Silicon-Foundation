@@ -60,7 +60,7 @@ C {devices/lab_pin.sym} 770 -860 2 0 {name=l4 sig_type=std_logic lab=VOUT
 C {devices/vsource.sym} 365 -855 0 0 {name=V1 value=1.8}
 C {devices/vdd.sym} 365 -920 0 0 {name=l5 lab=VDD}
 C {devices/gnd.sym} 365 -790 0 0 {name=l6 lab=GND}
-C {devices/vsource.sym} 265 -855 0 0 {name=V2 value=0}
+C {devices/vsource.sym} 265 -855 0 0 {name=VIN value=0}
 C {devices/lab_pin.sym} 265 -920 1 0 {name=l7 sig_type=std_logic lab=VIN
 }
 C {devices/code.sym} 75 -1105 0 0 {name=TT_MODELS
@@ -75,5 +75,5 @@ value="** manual skywater pdks install (with patches applied)
 .param mc_mm_switch=0
 .param mc_pr_switch=0
 "}
-C {devices/code_shown.sym} 65 -850 0 0 {name=SPICE only_toplevel=false value=".dc VIN 0 1.8 0.1"
-.save all}
+C {devices/code_shown.sym} 65 -850 0 0 {name=SPICE only_toplevel=false value=".dc VIN 0 1.8 0.1
+.save all"}
