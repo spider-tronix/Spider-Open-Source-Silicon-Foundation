@@ -1,0 +1,12 @@
+NFET_01v8: W/L = 1/1 M = 1
+    I = 1uA
+      = (VDD-VGS)/R
+      = k (W/L) (VGS - Vth)^2
+
+    VGS = 663.596 mV
+    Vth = 550 mV
+
+    k = 1u / 0.012904051
+    k  = 77.459 uA/v^2
+
+    R = 1.136404 MEG
