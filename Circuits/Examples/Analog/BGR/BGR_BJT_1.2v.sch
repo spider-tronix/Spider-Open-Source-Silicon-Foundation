@@ -4,6 +4,7 @@ K {}
 V {}
 S {}
 E {}
+T {TT_MODELS file is different here!!} 80 -3260 0 0 0.4 0.4 {}
 N 990 -2830 990 -2780 { lab=GND}
 N 990 -2780 1110 -2780 { lab=GND}
 N 1110 -2780 1220 -2780 { lab=GND}
