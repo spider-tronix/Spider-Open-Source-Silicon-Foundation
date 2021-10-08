@@ -41,7 +41,7 @@ C {sky130_fd_pr/pfet_01v8.sym} 630 -910 0 0 {name=M2
 L=0.15
 W=1
 nf=1
-mult=1
+mult=2
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -76,4 +76,6 @@ value="** manual skywater pdks install (with patches applied)
 .param mc_pr_switch=0
 "}
 C {devices/code_shown.sym} 65 -850 0 0 {name=SPICE only_toplevel=false value=".dc VIN 0 1.8 0.1
-.save all"}
+.save all
+.plot v(VIN)
+.plot v(VOUT)"}
