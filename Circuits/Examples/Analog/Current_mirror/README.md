@@ -21,5 +21,22 @@ Tested through spice simulations on skywater <b>130nm tt corner </b> at room ter
 </div>
   
 ## <b> Post-Layout: </b> <br>
+
+# An Active Load Currrent Mirror using BiCMOS Process
+Tested through spice simulations on skywater <b>130nm tt corner </b> at room termperature.
+
+<table>
+
+  ## <b> Schematic: </b> <br>
+  <tr>
+    <td><img src="https://i.imgur.com/nwX87ad.png" alt="1"></td>
+   </tr> 
+</table>
+ 
+## Pre-Layout Simulations
+<div align="center">  
   
-TODO
+![alt text](https://i.imgur.com/zhbj3Wh.png)
+</div>
+
+## <b> Post-Layout: </b> <br>
