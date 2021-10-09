@@ -10,14 +10,14 @@ Tested through spice simulations on skywater <b>130nm tt corner </b> at room ter
 
   ## <b> Schematic: </b> <br>
   <tr>
-    <td><img src="https://imgur.com/8VUk3HC.png" alt="1"></td>
+    <td><img src="https://i.imgur.com/1VK2TzJ.png" alt="1"></td>
    </tr> 
 </table>
  
 ## Pre-Layout Simulations
 <div align="center">  
   
-![alt text](https://imgur.com/9K1WLeQ.png)
+![alt text](https://i.imgur.com/4fJRpJK.png)
 </div>
   
 ## <b> Post-Layout: </b> <br>
