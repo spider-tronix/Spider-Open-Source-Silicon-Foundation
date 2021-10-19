@@ -28,7 +28,7 @@ magic -rcfile /usr/share/pdk/share/pdk/sky130A/libs.tech/magic/sky130A.magicrc <
 
 * To fix grid size to 75nmx75nm; Since minimum channel length 150nm:
 
-    >`grid 75nm 75nm`
+    >`grid 0.05um 0.05um`
 
 * To snap grid size (in GUI)
 
