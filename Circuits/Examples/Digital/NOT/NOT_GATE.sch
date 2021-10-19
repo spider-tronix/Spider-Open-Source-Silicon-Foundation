@@ -39,9 +39,9 @@ spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} 630 -910 0 0 {name=M2
 L=0.15
-W=1
+W=2
 nf=1
-mult=2
+mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
