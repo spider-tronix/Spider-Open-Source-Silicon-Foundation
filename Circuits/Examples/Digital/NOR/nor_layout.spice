@@ -1,0 +1,9 @@
+* SPICE3 file created from nor_layout.ext - technology: sky130A
+
+.subckt nor_layout VOUT A B VDD GND
+X0 VOUT B a_180_310# VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=150000u
+X1 VOUT B GND GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=150000u
+X2 VOUT A GND GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=150000u
+X3 a_180_310# A VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=150000u
+.ends
+
