@@ -29,6 +29,23 @@ magic -rcfile /usr/share/pdk/share/pdk/sky130A/libs.tech/magic/sky130A.magicrc <
 * To fix grid size to 75nmx75nm; Since minimum channel length 150nm:
 
     >`grid 75nm 75nm`
+
 * To snap grid size (in GUI)
+
     > `snap user`
 
+### DRC
+
+* Enable all incremental DRC checks
+
+    > `drc style drc(full)`
+
+### Layout
+
+* Draw something
+
+    > `paint <component Ex. poly>`
+
+* Erase something. Select using GUI then
+
+    > `erase`
