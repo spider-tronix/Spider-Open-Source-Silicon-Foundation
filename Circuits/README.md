@@ -32,7 +32,7 @@ magic -rcfile /usr/share/pdk/share/pdk/sky130A/libs.tech/magic/sky130A.magicrc <
 
 * To snap grid size (in GUI)
 
-    > `snap user` 
+    > `snap user`
 
 ### DRC
 
