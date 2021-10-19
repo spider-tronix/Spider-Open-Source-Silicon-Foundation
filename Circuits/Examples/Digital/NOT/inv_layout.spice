@@ -1,6 +1,8 @@
 * SPICE3 file created from inv_layout.ext - technology: sky130A
 
-.subckt inv_layout VIN VOUT VDD GND
+.subckt inv_layout VOUT VIN VDD GND
 X0 VOUT VIN VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=2e+06u l=150000u
 X1 VOUT VIN GND GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1e+06u l=150000u
 .ends
+
+.end
